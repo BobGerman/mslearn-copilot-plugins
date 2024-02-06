@@ -10,7 +10,7 @@ app.get("/get-listings", (req, res) => {
   const city = req.query.city;
   const bedrooms = parseInt(req.query.bedrooms);
   const bathrooms = parseInt(req.query.bathrooms);
-  const amenities = req.query.amenities;
+  const amenities = Array.isArray(req.query.amenities) ? req.query.amenities : [req.query.amenities];
 
   try {
     const listings = getListings(city, bedrooms, bathrooms, amenities);
