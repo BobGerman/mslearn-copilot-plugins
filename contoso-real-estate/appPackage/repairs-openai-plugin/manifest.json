@@ -1,0 +1,26 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.15",
+    "version": "1.0.0",
+    "id": "b245812d-af5f-42a9-83a9-e99cf300135f",
+    "name": {
+        "short": "Repairs Plugin",
+        "full": "Repairs Plugin"
+    },
+    "developer": {
+        "name": "Pierce Boggan",
+        "websiteUrl": "https://www.pierceboggan.com",
+        "privacyUrl": "https://privacy.pierceboggan.com/en-us/data-privacy-notice",
+        "termsOfUseUrl": "https://www.pierceboggan.com/servicesagreement"
+    },
+    "description": {
+        "short": "Manage your repairs and maintenance tasks.",
+        "full": "Plugin to add, update, remove, and view repair objects."
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "accentColor": "#FFFFFF",
+    "showLoadingIndicator": true
+}

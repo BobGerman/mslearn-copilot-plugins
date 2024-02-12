@@ -1,0 +1,25 @@
+{
+  "components": [
+    {
+      "openAIDefinition": {
+        "schema_version": "v1",
+        "name_for_human": "Repairs Manager",
+        "name_for_model": "repairs",
+        "description_for_human": "Manage your repairs and maintenance tasks.",
+        "description_for_model": "Plugin to add, update, remove, and view repair objects.",
+        "auth": {
+            "type": "none"
+        },
+        "api": {
+            "type": "openapi",
+            "url": "https://piercerepairsapi.azurewebsites.net/openapi.yml",
+            "is_user_authenticated": false
+        },
+        "logo_url": "https://piercerepairsapi.azurewebsites.net/logo.png",
+        "contact_email": "piboggan@microsoft.com",
+        "legal_info_url": "http://pierceboggan.com"
+      },
+      "swaggerFileName": "swagger.json"
+    }
+  ]
+}

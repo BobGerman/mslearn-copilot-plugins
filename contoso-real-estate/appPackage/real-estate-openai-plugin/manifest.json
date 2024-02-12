@@ -1,0 +1,26 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.15/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.15",
+    "version": "1.0.0",
+    "id": "b245812d-af5f-42a9-83a9-e99cf300135f",
+    "name": {
+        "short": "Contoso Real Estate Plugin",
+        "full": "Contoso Real Estate Plugin"
+    },
+    "developer": {
+        "name": "Bob German",
+        "websiteUrl": "https://www.microsoft.com.com",
+        "privacyUrl": "https://privacy.microsoft.com/",
+        "termsOfUseUrl": "https://www.microsoft.com/legal/terms-of-use"
+    },
+    "description": {
+        "short": "Search for homes and apartments.",
+        "full": "Plugin to find housing such as homes and apartments."
+    },
+    "icons": {
+        "outline": "outline.png",
+        "color": "color.png"
+    },
+    "accentColor": "#FFFFFF",
+    "showLoadingIndicator": true
+}
